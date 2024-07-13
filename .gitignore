@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Include Prism Launcher stuff
+!instance.cfg
+!mmc-pack.json
+
+# Include git stuff
+!.git/
+!.gitignore
+!.gitattributes
+!manager.sh
+!README.md
+
+# Include Minecraft
+!.minecraft/
+!.minecraft/icon.png
+
+# Include Mods
+!.minecraft/mods/
+!.minecraft/mods/*.jar
+!.minecraft/mods/.index/
+!.minecraft/mods/.index/*.toml

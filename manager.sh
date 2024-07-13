@@ -1,30 +1,30 @@
 #!/bin/bash
 
-start() {
-}
+# start() {
+# }
 
 reset() {
     git reset --hard
     git clean -fdX --exclude="!.minecraft/options.txt"
 }
 
-up() {
-	reset
-	start
-}
+# up() {
+# 	reset
+# 	start
+# }
 
 case "$1" in
-	start)
-		start
-		;;
+	# start)
+	# 	start
+	# 	;;
 	reset)
 		reset
 		;;
-	up)
-		 up
-		 ;;
+	# up)
+	# 	 up
+	# 	 ;;
 	*)
-		echo "Usage: $0 {start|reset|up}"
+		echo "Usage: $0 {reset}"
 		exit 1
 		;;
 esac

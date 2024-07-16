@@ -21,3 +21,6 @@
 !.minecraft/mods/*.jar
 !.minecraft/mods/.index/
 !.minecraft/mods/.index/*.toml
+
+# Include Server
+!.minecraft/servers.dat

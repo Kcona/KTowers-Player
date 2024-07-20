@@ -9,6 +9,10 @@
 !.git/
 !.gitignore
 !.gitattributes
+!.github/
+!.github/*
+!.github/workflows/*
+
 !manager.sh
 !README.md
 

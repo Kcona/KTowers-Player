@@ -25,6 +25,7 @@ jobs:
         asset_path: ./KTowers_Player_Prism_Launcher.zip
         asset_name: KTowers_Player_Prism_Launcher.zip
         asset_content_type: application/zip
+        token: ${{ secrets.GH_TOKEN }}
 
     - name: Upload mods release assets
       uses: actions/upload-release-asset@v1
@@ -33,3 +34,4 @@ jobs:
         asset_path: ./KTowers_Player_mods.zip
         asset_name: KTowers_Player_mods.zip
         asset_content_type: application/zip
+        token: ${{ secrets.GH_TOKEN }}
